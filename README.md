@@ -14,12 +14,12 @@
 
 1. **创建 Telegram Bot**
     - 在 Telegram 中找到 `@BotFather`，创建一个新 Bot，并获取 API Token。
-    - 获取到你的 Chat ID 方法一，在[一休技术交流群](https://t.me/yxjsjl)里发送`/id@KinhRoBot`获取，返回用户信息中的`ID`就是Chat ID
+    - 获取到你的 Chat ID 方法一，在[一休技术交流群](https://t.me/yxjsjl)里发送`/id@KinhRoBot`获取，返回用户信息中的`ID`就是Chat ID。
     - 获取到你的 Chat ID 方法二，可以通过向 Bot 发送一条消息，然后访问 `https://api.telegram.org/bot<your_bot_token>/getUpdates` 找到 Chat ID。
 
 2. **配置 GitHub Secrets**
     - 转到你 fork 的仓库页面。
-    - 点击 `Settings`，然后在左侧菜单中选择 `Secrets`。
+    - 点击 `设置`，然后在左侧菜单中选择 `Secrets`。
     - 添加以下 Secrets：
         - `WEBHOST`: 账号信息,格式 账号1:密码 账号2:密码 账号3:密码
         - `TELEGRAM_BOT_TOKEN`: 你的 Telegram Bot 的 API Token。
@@ -32,7 +32,7 @@
 #### 3. 启动 GitHub Actions
 
 1. **配置 GitHub Actions**
-    - 在你的 fork 仓库中，进入 `Actions` 页面。
+    - 在你的 fork 仓库中，进入 `操作` 页面。
     - 如果 Actions 没有自动启用，点击 `Enable GitHub Actions` 按钮以激活它。
 
 2. **运行工作流**
